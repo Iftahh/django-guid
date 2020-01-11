@@ -1,4 +1,4 @@
-.. image:: https://i.imgur.com/iq516NF.png
+.. image:: https://i.imgur.com/DeVrqzT.png
 
 .. image:: https://img.shields.io/pypi/v/django-guid.svg
     :target: https://pypi.python.org/pypi/django-guid
