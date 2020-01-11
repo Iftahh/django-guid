@@ -1,5 +1,4 @@
-GUID injection for Django
-=========================
+.. image:: https://i.imgur.com/iq516NF.png
 
 .. image:: https://img.shields.io/pypi/v/django-guid.svg
     :target: https://pypi.python.org/pypi/django-guid
