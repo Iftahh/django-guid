@@ -30,6 +30,9 @@ def rest_view(request: Request) -> Response:
     :param request: Request
     :return: Response
     """
-    logger.info('This is a DRF view log, and should have a GUID.')
-    useless_response = useless_function()
+    from uuid import uuid4
+
+    id_ = uuid4().hex
+    logger.info('This is a DRF view log, and should have a GUID. ID: %s', id_)
+    useless_response = useless_function(id_)
     return Response(data={'detail': f'It worked! Useless function response is {useless_response}'})
